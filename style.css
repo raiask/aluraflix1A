@@ -26,7 +26,7 @@ h1{
     font-size: 50px;
 }
 p{
-    font-size: 30px;
+    font-size: 40px;
 }
 img{
     height: 200px;
@@ -34,4 +34,8 @@ img{
 .categoria-videos{
     display:flex;
     overflow-x:auto ;
+    gap: 10px;
+}
+section{
+    padding-left: 20px;
 }
