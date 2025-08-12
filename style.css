@@ -28,9 +28,6 @@ h1{
 p{
     font-size: 40px;
 }
-img{
-    height: 200px;
-}
 .categoria-videos{
     display:flex;
     overflow-x:auto ;
@@ -39,4 +36,15 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+opacity: 1.0;
+border:1px solid rgb(167, 92, 236)
+}
+.categoria h2 {
+    color: rebeccapurple;
 }
